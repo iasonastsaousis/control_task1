@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer -- -j8 -l8
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target marker_publisher_node[0m
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/marker_publisher_node.dir/src/autocross_map_visualization.cpp.o[0m
+[0.247s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:3:10:[m[K [01;31m[Kfatal error: [m[KVector2D.hpp: No such file or directory
+[0.247s]     3 | #include [01;31m[K"Vector2D.hpp"[m[K
+[0.247s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[0.247s] compilation terminated.
+[0.251s] gmake[2]: *** [CMakeFiles/marker_publisher_node.dir/build.make:76: CMakeFiles/marker_publisher_node.dir/src/autocross_map_visualization.cpp.o] Error 1
+[0.251s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/marker_publisher_node.dir/all] Error 2
+[0.251s] gmake: *** [Makefile:146: all] Error 2
+[0.253s] Invoked command in '/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer -- -j8 -l8

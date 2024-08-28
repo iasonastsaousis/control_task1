@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer -- -j8 -l8
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target marker_publisher_node[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/marker_publisher_node.dir/src/autocross_map_visualization.cpp.o[0m
+[2.168s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:[m[K In constructor ‘[01m[KMarkerPublisher::MarkerPublisher()[m[K’:
+[2.168s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:24:67:[m[K [01;31m[Kerror: [m[Klvalue required as unary ‘[01m[K&[m[K’ operand
+[2.168s]    24 |             std::bind(&[01;31m[KMarkerPublisher::create_and_publish_markers(coordinates_)[m[K, this)
+[2.168s]       |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.877s] gmake[2]: *** [CMakeFiles/marker_publisher_node.dir/build.make:76: CMakeFiles/marker_publisher_node.dir/src/autocross_map_visualization.cpp.o] Error 1
+[2.878s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/marker_publisher_node.dir/all] Error 2
+[2.878s] gmake: *** [Makefile:146: all] Error 2
+[2.880s] Invoked command in '/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer -- -j8 -l8

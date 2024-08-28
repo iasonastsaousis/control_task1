@@ -1,0 +1,18 @@
+[01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:[m[K In constructor ‘[01m[KMarkerPublisher::MarkerPublisher()[m[K’:
+[01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:27:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMarkerPublisher::read_coordinates_from_file(const char [9], const char [5])[m[K’
+   27 |         coordinates_left = [01;31m[Kread_coordinates_from_file("Left.txt","blue")[m[K;
+      |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:36:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<Vector2D> MarkerPublisher::read_coordinates_from_file(const string&)[m[K’
+   36 |     std::vector<Vector2D> [01;36m[Kread_coordinates_from_file[m[K(const std::string &filename)
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:36:27:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:28:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMarkerPublisher::read_coordinates_from_file(const char [10], const char [7])[m[K’
+   28 |         coordinates_right = [01;31m[Kread_coordinates_from_file("Right.txt","yellow")[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:36:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<Vector2D> MarkerPublisher::read_coordinates_from_file(const string&)[m[K’
+   36 |     std::vector<Vector2D> [01;36m[Kread_coordinates_from_file[m[K(const std::string &filename)
+      |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:36:27:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/marker_publisher_node.dir/build.make:76: CMakeFiles/marker_publisher_node.dir/src/autocross_map_visualization.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/marker_publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

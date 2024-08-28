@@ -1,0 +1,17 @@
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/lib/autocross_visualizer/marker_publisher_node
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/include//autocross_visualizer/Vector2D.hpp
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/ament_index/resource_index/package_run_dependencies/autocross_visualizer
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/ament_index/resource_index/parent_prefix_path/autocross_visualizer
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/environment/ament_prefix_path.sh
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/environment/ament_prefix_path.dsv
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/environment/path.sh
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/environment/path.dsv
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/local_setup.bash
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/local_setup.sh
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/local_setup.zsh
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/local_setup.dsv
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/package.dsv
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/ament_index/resource_index/packages/autocross_visualizer
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/cmake/autocross_visualizerConfig.cmake
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/cmake/autocross_visualizerConfig-version.cmake
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/package.xml

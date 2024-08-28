@@ -1,0 +1,10 @@
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer/CMakeFiles/uninstall.dir
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer/CMakeFiles/autocross_visualizer_uninstall.dir
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer/CMakeFiles/marker_publisher_node.dir
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer/CMakeFiles/test.dir
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer/CMakeFiles/edit_cache.dir
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer/CMakeFiles/rebuild_cache.dir
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer/CMakeFiles/list_install_components.dir
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer/CMakeFiles/install.dir
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer/CMakeFiles/install/local.dir
+/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer/CMakeFiles/install/strip.dir

@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target marker_publisher_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/marker_publisher_node.dir/src/autocross_map_visualization.cpp.o[0m
+[01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:[m[K In member function ‘[01m[Kstd::vector<Vector2D> MarkerPublisher::read_coordinates_from_file(const string&)[m[K’:
+[01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:52:34:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::basic_ios<char>::eof[m[K’ from type ‘[01m[Kbool (std::basic_ios<char>::)() const[m[K’ to type ‘[01m[Kbool[m[K’
+   52 |             if (ss.fail() || !ss.[01;31m[Keof[m[K)
+      |                                  [01;31m[K^~~[m[K
+[01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:52:34:[m[K [01;31m[Kerror: [m[Kin argument to unary !
+   52 |             if (ss.fail() || ![01;31m[Kss.eof[m[K)
+      |                               [01;31m[K~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/marker_publisher_node.dir/build.make:76: CMakeFiles/marker_publisher_node.dir/src/autocross_map_visualization.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/marker_publisher_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,49 @@
+[0.012s] Invoking command in '/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer -- -j8 -l8
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target marker_publisher_node[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/marker_publisher_node.dir/src/autocross_map_visualization.cpp.o[0m
+[2.151s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:73:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ has not been declared
+[2.151s]    73 |     void create_and_publish_markers(const std::vector<Vector2D> &coordinates, [01;31m[Kstring[m[K colour)
+[2.151s]       |                                                                               [01;31m[K^~~~~~[m[K
+[2.160s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:[m[K In constructor ‘[01m[KMarkerPublisher::MarkerPublisher()[m[K’:
+[2.160s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:22:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMarkerPublisher::read_coordinates_from_file(const char [9], const char [5])[m[K’
+[2.160s]    22 |         coordinates_left = [01;31m[Kread_coordinates_from_file("Left.txt","blue")[m[K;
+[2.160s]       |                            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.160s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:31:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<Vector2D> MarkerPublisher::read_coordinates_from_file(const string&)[m[K’
+[2.160s]    31 |     std::vector<Vector2D> [01;36m[Kread_coordinates_from_file[m[K(const std::string &filename)
+[2.161s]       |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.179s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:31:27:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.179s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:23:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMarkerPublisher::read_coordinates_from_file(const char [10], const char [7])[m[K’
+[2.180s]    23 |         coordinates_right = [01;31m[Kread_coordinates_from_file("Right.txt","yellow")[m[K;
+[2.180s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.180s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:31:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::vector<Vector2D> MarkerPublisher::read_coordinates_from_file(const string&)[m[K’
+[2.180s]    31 |     std::vector<Vector2D> [01;36m[Kread_coordinates_from_file[m[K(const std::string &filename)
+[2.180s]       |                           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.180s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:31:27:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.191s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:[m[K In member function ‘[01m[Kvoid MarkerPublisher::publish_markers()[m[K’:
+[2.191s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:69:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMarkerPublisher::create_and_publish_markers(std::vector<Vector2D>&)[m[K’
+[2.191s]    69 |         [01;31m[Kcreate_and_publish_markers(coordinates_left)[m[K;
+[2.191s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[2.191s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:73:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid MarkerPublisher::create_and_publish_markers(const std::vector<Vector2D>&, int)[m[K’
+[2.191s]    73 |     void [01;36m[Kcreate_and_publish_markers[m[K(const std::vector<Vector2D> &coordinates, string colour)
+[2.191s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.191s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:73:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.191s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:70:35:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMarkerPublisher::create_and_publish_markers(std::vector<Vector2D>&)[m[K’
+[2.191s]    70 |         [01;31m[Kcreate_and_publish_markers(coordinates_right)[m[K;
+[2.191s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.191s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:73:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid MarkerPublisher::create_and_publish_markers(const std::vector<Vector2D>&, int)[m[K’
+[2.191s]    73 |     void [01;36m[Kcreate_and_publish_markers[m[K(const std::vector<Vector2D> &coordinates, string colour)
+[2.191s]       |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.191s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:73:10:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.192s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:[m[K In member function ‘[01m[Kvoid MarkerPublisher::create_and_publish_markers(const std::vector<Vector2D>&, int)[m[K’:
+[2.192s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:100:23:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.192s]   100 |             if([01;35m[Kcolour == "blue"[m[K){
+[2.192s]       |                [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[2.192s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:100:23:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.192s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:104:31:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[2.192s]   104 |             } else if ([01;35m[Kcolour == "yellow"[m[K){
+[2.192s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[2.192s] [01m[K/home/iason/aristurtle/controlTasks/task1/ros2_ws/src/autocross_visualizer/src/autocross_map_visualization.cpp:104:31:[m[K [01;31m[Kerror: [m[KISO C++ forbids comparison between pointer and integer [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.997s] gmake[2]: *** [CMakeFiles/marker_publisher_node.dir/build.make:76: CMakeFiles/marker_publisher_node.dir/src/autocross_map_visualization.cpp.o] Error 1
+[2.997s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/marker_publisher_node.dir/all] Error 2
+[2.997s] gmake: *** [Makefile:146: all] Error 2
+[2.999s] Invoked command in '/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer -- -j8 -l8
