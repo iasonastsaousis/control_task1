@@ -8,11 +8,6 @@
 #include "autocross_visualizer/Vector2D.hpp"
 
 
-enum Colour {
-    Blue,    // By default, this will be 0
-    Yellow,  // This will be 1
-};
-
 class MarkerPublisher : public rclcpp::Node
 {
 public:
@@ -23,12 +18,10 @@ public:
         marker_pub_ = this->create_publisher<visualization_msgs::msg::Marker>("visualization_marker", 10);
     
     
-        // Read coordinates from file and store in vector
+        // Read coordinates from file and store in vector of vectors 
         coordinates_left = read_coordinates_from_file("Left.txt");
         coordinates_right = read_coordinates_from_file("Right.txt");
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(0), std::bind(&MarkerPublisher::publish_markers, this));
-
-
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(1), std::bind(&MarkerPublisher::publish_markers, this));
     }
 
 private:
@@ -78,7 +71,7 @@ private:
     {
         int id = 0;  // ID to differentiate each marker
 
-        for (const auto& coord : coordinatesLeft)
+        for (const Vector2D& coord : coordinatesLeft)
         {
             auto marker = visualization_msgs::msg::Marker();
             marker.header.frame_id = "map";
@@ -112,7 +105,7 @@ private:
         }
 
 
-        for (const auto& coord : coordinatesRight)
+        for (const Vector2D& coord : coordinatesRight)
         {
             auto marker = visualization_msgs::msg::Marker();
             marker.header.frame_id = "map";
@@ -144,8 +137,13 @@ private:
             // Publish the marker
             marker_pub_->publish(marker);
         }
+
+        // The fact that we have 2 for loops copied and pasted means we could implement it as a function
+        // it would be better implemented as a function if we wanted cleaner and reusable code.
     }
 
+
+    // Class members
     rclcpp::Publisher<visualization_msgs::msg::Marker>::SharedPtr marker_pub_;
     rclcpp::TimerBase::SharedPtr timer_;
     std::vector<Vector2D> coordinates_left;

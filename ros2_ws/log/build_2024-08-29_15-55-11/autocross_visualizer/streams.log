@@ -1,0 +1,29 @@
+[0.012s] Invoking command in '/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer -- -j8 -l8
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target marker_publisher_node[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/marker_publisher_node.dir/src/autocross_map_visualization.cpp.o[0m
+[6.500s] [100%] [32m[1mLinking CXX executable marker_publisher_node[0m
+[6.756s] [100%] Built target marker_publisher_node
+[6.769s] Invoked command in '/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer -- -j8 -l8
+[6.809s] Invoking command in '/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer
+[6.819s] -- Install configuration: ""
+[6.820s] -- Installing: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/lib/autocross_visualizer/marker_publisher_node
+[6.822s] -- Set runtime path of "/home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/lib/autocross_visualizer/marker_publisher_node" to ""
+[6.822s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/include/
+[6.822s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/include//autocross_visualizer
+[6.822s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/include//autocross_visualizer/Vector2D.hpp
+[6.822s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/ament_index/resource_index/package_run_dependencies/autocross_visualizer
+[6.822s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/ament_index/resource_index/parent_prefix_path/autocross_visualizer
+[6.822s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/environment/ament_prefix_path.sh
+[6.823s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/environment/ament_prefix_path.dsv
+[6.823s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/environment/path.sh
+[6.823s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/environment/path.dsv
+[6.823s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/local_setup.bash
+[6.823s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/local_setup.sh
+[6.823s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/local_setup.zsh
+[6.823s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/local_setup.dsv
+[6.823s] -- Installing: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/package.dsv
+[6.823s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/ament_index/resource_index/packages/autocross_visualizer
+[6.823s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/cmake/autocross_visualizerConfig.cmake
+[6.824s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/cmake/autocross_visualizerConfig-version.cmake
+[6.824s] -- Up-to-date: /home/iason/aristurtle/controlTasks/task1/ros2_ws/install/autocross_visualizer/share/autocross_visualizer/package.xml
+[6.826s] Invoked command in '/home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iason/aristurtle/controlTasks/task1/ros2_ws/build/autocross_visualizer
