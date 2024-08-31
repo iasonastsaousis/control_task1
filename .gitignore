@@ -1,0 +1,43 @@
+# ROS 2 build directories
+build/
+install/
+log/
+
+# Colcon build cache and temporary files 
+.colcon/
+
+# ROS 2 test result directories
+test_results/
+
+# CMake and Make build files
+CMakeLists.txt.user
+CMakeCache.txt
+cmake-build-debug/
+cmake-build-release/
+build/
+
+# CMake build directory (if not using the default)
+*.cmake
+*.swp
+
+# Python byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Eclipse project files 
+.cproject 
+.project
+
+# Visual Studio Code files
+.vscode/
+
+# CLion project files
+.idea/
+*.iml
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db`
